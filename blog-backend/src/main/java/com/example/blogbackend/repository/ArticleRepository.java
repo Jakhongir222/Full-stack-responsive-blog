@@ -18,4 +18,12 @@ public class ArticleRepository {
     public Object saveArticle(Article article) {
         return repo.save(article);
     }
+
+    public Object getAllArticles() {
+        return repo.findAll();
+    }
+
+    public Object createNewArticle(Article article) {
+        return repo.save(article);
+    }
 }
