@@ -1,0 +1,55 @@
+.text-image {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.text {
+    position: absolute;
+    left: auto;
+    width: 500px;
+    margin-top: 150px;
+    padding: 15px;
+    margin-left: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    position: relative;
+    height: 550px;
+    margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px;
+  
+}
+
+.image {
+    position: absolute;
+    left: 700px;
+    margin-top: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.contacts {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 25px
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.intro-text {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 25px;
+}
