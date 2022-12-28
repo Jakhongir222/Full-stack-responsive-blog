@@ -11,5 +11,37 @@
     background-size: cover;
     text-shadow: 0px 11px 10px rgba(81,67,21,0.8);
     color: aliceblue;
-    backdrop-filter: brightness(50%);
+}
+a:link {
+    text-decoration: none;
+}
+a { color: inherit; }
+
+.all-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 750px;
+    margin: 10px;
+    object-fit: cover;
+    margin-top: 70px;
+    text-decoration: none;
+}
+
+.read-more {
+    color: blue;
+}
+
+
+.one-card {
+    display: flex;
+    border: 0;
+    object-fit: cover;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: black;
+    background-color: white;
+    font-size: large;
+
 }
