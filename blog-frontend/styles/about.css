@@ -26,11 +26,13 @@
 
 .contacts {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     margin-left: 25px;
+    font-size: larger;
+    color: aliceblue;
 }
 
 

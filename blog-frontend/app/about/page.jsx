@@ -18,13 +18,13 @@ const page = () => {
                 <p>Please contact me on </p>
                 <div className='contact'>
                 <a href='mailto:jakhongir.burkhanov@appliedtechnology.se'>
-                <Image src="/gmail.png" width="33" height="33" alt="Github Icon"/>
+                <Image src="/gmail.png" width="30" height="30" alt="Github Icon"/>
                 </a>
                 <a href='https://github.com/Jakhongir222'>
                 <Image src="/github.png" width="30" height="30" alt="Github Icon"/>
                 </a>
                 <a href='https://www.linkedin.com/in/jakburkhanov/'>
-                <Image src="/lnkdin.png" width="30" height="30" alt="Linkedin Icon"/>
+                <Image src="/lnkdin.jpeg" width="30" height="30" alt="Linkedin Icon"/>
                 </a>
                 </div>
             </div>
