@@ -7,17 +7,12 @@ const page = () => {
     <div className='container'>
         <div>
             <div className='intro-text'>
-        <h1>Hello, I am Jakhongir Burkhonov ...</h1></div>
-            <div className='text-image'>
+        <h1>Hello, I am Jakhongir Burkhonov</h1></div>
             <div className='text'>
                 <p>27 year old, enthusiastic, driven and adaptable full-stack java developer, particularly passionate about OOP and TDD. 
                     I am a logical and strategic thinker with varied technical expertise, and I take pride in my strong attention to detail and problem-solving skills . 
                     Having graduated with a Tourism Management degree , I came across with different people all around the world, I learned how to form client relationships and improve my communication skills. 
                     I thrive on working with different teams and learning from people with varied skill sets and backgrounds.</p>
-            </div>
-            <div className='image'>
-            <Image className='profile-picture' src="/Jak.jpeg" width="400" height="400" alt="Picture of Jakhongir"/>
-            </div>
             </div>
             <div className='contacts'>
                 <p>Please contact me on </p>
