@@ -19,8 +19,8 @@ const page = () => {
             Even though people are ready to make this year their greatest year of travel, 
             there still may be a lingering uneasiness about traveling again. How can we feel safer 
             traveling after so much has happened around the world?</p>
-            <div className='read-more'><a href='/safety' title="safety">Read more</a></div>
             </a>
+            <div className='read-more'><a href='/safety' title="safety">Read more</a></div>
           </div>
           <div className='one-card'>
           <a href='/vaxolm'>
@@ -30,8 +30,8 @@ const page = () => {
             It may be due to Vaxholm's history and the fact that here you disembark in a lively archipelago village with genuine restaurants 
             and quaint shops, while at the same time you get to experience the magnificent archipelago nature with hiking trails, paddling trails 
             and fishing waters just inside the knot. And perhaps best of all you can do it all year round.</p>
-            <div className='read-more'><a href='/vaxolm' title="vaxolm">Read more</a></div>
             </a>
+            <div className='read-more'><a href='/vaxolm' title="vaxolm">Read more</a></div>
           </div>
           <div className='one-card'>
           <a href='/camping'>
@@ -40,8 +40,8 @@ const page = () => {
           <p>Camping is a fantastic way to calm the mind, connect with nature and have an adventure. But it is not easy to make it perfect on your first try. 
             Years of trial and error camping on every continent and we have put together our best camping tips to help make the great outdoors more comfortable and fun.
             In this guide, we are going to cover camping essentials, meal planning, how to set up your camp, and much more. So get ready to plan your next camping trip with our help.</p>
-            <div className='read-more'><a href='/camping' title="camping">Read more</a></div>
             </a>
+            <div className='read-more'><a href='/camping' title="camping">Read more</a></div>
           </div>
         </div>
     </div>
