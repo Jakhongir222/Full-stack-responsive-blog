@@ -15,33 +15,19 @@
 a:link {
     text-decoration: none;
 }
-a { color: inherit; }
 
 .all-cards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 750px;
-    margin: 10px;
-    object-fit: cover;
-    margin-top: 70px;
-    text-decoration: none;
+    
 }
-
-.read-more {
-    color: blue;
-}
-
 
 .one-card {
     display: flex;
-    border: 0;
-    object-fit: cover;
-    margin: 10px;
-    padding: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 25px;
+    width: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-color: white;
-    font-size: large;
-
 }

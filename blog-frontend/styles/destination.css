@@ -1,0 +1,31 @@
+
+
+.articles {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+} 
+
+.article-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 25px;
+    height: 500px;
+    width: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: white;
+}
+
+.article-title {
+    display: flex;
+    font-size: large;
+    justify-content: center;
+}
+
+.article-text {
+    display: flex;
+    font-size: small;
+}
