@@ -10,6 +10,7 @@ body {
     background-color: var(--background-color);
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
 }
 
 a:link {
@@ -54,9 +55,33 @@ a:link {
 
 .welcoming-quote {
     display: flex;
+    background-image: url('/ocean.jpg');
+    height: 600px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.home-page-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.explore-button {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px 10px;
+    font-size: 50px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
