@@ -1,12 +1,12 @@
 "use client"
 import "../styles/layout.css";
-import { React, useState, useEffect, useRef } from 'react'
+import { React, useState} from 'react'
 import Confetti from './confetti';
 
 
 function homepage () {
 
-    const [isVisible, setIsVisible] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
     const cities = ["London", "Paris", "Tokyo", "Barcelona", "Italy", "Greece", "Uzbekistan", "Norway", "New-York", "Bangkok", "Singapore", "Dubai", 
 "Portugal", "Australia", "You have no money to travel", "Nowhere", "Neverland", "we have been trying to reach you about your car's extended warranty", 
@@ -25,7 +25,7 @@ function homepage () {
         setRandomCity(newCity);
         play();
         setIsSpinning(!isSpinning);
-        setIsVisible(true)
+        setIsActive(!isActive);
     }
 
     return (
@@ -34,7 +34,7 @@ function homepage () {
             <div className="home-page-cart">
                 <p>Where will you be travelling in 2023 ?</p>
                 <button onClick={spinTheCompass} className={isSpinning ? 'spin' : ''}>Click me</button>
-                {isVisible && <Confetti />}
+                {isActive && <Confetti active={isActive}/>}
                 <audio id='b1'><source src="/sound3.wav" type='audio/mpeg'/></audio>
                 <p>{randomCity}</p>
                     <a href='/destinations'>
