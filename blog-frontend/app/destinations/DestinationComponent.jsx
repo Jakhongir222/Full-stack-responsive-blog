@@ -19,7 +19,7 @@ function DestinationComponent() {
   }, [])
 
   if (isLoading) return <p>Loading...</p>
-  if (!data) return <p>No profile data</p>
+  if (!data) return <p>Page is loading</p>
 
   return (
     <div>
