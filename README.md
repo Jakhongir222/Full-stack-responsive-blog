@@ -13,7 +13,7 @@ Plaese contact me if you have queastions or further inquiries. You can find my c
 # Technology
 The project is a Full-Stack application. Technologies used include;
 
-* Java 17 
+* Java 18 
 * REST-ful API 
 * Spring boot
 * PostgresSQL
