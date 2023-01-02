@@ -1,7 +1,7 @@
 
 # Full-stack-responsive-blog!
 
-This project is made by Jakhongir Burkhonov. You can check it out on following link:  https://www.salt.study/our-hubs/Stockholm
+This project is made by Jakhongir Burkhonov. You can check it out on following link:  https://full-stack-responsive-blog-jakhongir222.vercel.app/
 
 # Travel Blog
 I build a travel blog, because I have a passion to travel and wanted to help others to discovoer new countries and learn about their culture. In this blog
